@@ -1,5 +1,8 @@
 # Arlo's Commit Notation
 
+> [!IMPORTANT]
+> Note: this page describes v1, and v2 of the notation has been released, with improved clarity and focus on risk. It is called [Risk Aware Commit Notation](../README.md). Please prefer v2 for new projects, as it dramatically improves clarity.
+
 This commit notation allows developers to convey 2 critical pieces of metadata about each commit:
 
 1. How risky is it? What has the original author done to mitigate risk?

@@ -1,6 +1,6 @@
 # Risk Aware Commit Notation
 
-<p style="font-size: 80%;margin: -1.6em 0 3em;">(aka Arlo's Commit Notation)</p>
+<p style="font-size: 80%;margin: -1.6em 0 3em;"><code>v2.0.0</code> (was <a href="v1/index.md">Arlo's Commit Notation in v1</a>)</p>
 
 This commit notation allows developers to convey 2 critical pieces of metadata about each commit:
 
@@ -187,6 +187,14 @@ Features and bug fixes intentionally change behavior. This makes them much riski
 Therefore, we treat any feature or bug fix as high risk if it changes more than 8 lines of code in one commit. This includes test changes.
 
 One good approach to enable small features is to refactor until the feature change is easy. Then add the feature one piece at a time, with a test for each.
+
+# Version History
+
+Risk Aware Commit Notation uses semantic versioning. We are currently continuing support for the v1 line, but will not be extending it further (maintenance-only).
+
+* 2.0: Split risk from intention. Renamed to Risk Aware Commit Notation.
+* 1.0: Standardized & published as [Arlo's Commit Notation](v1/index.md).
+* 0.x: as presented at Craft Conference.
 
 # Living Documentation
 
